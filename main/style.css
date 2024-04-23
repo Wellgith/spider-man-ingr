@@ -1,0 +1,245 @@
+.marvel-regular {
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+   
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ 
+}
+
+li{
+
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    transition: .5s;
+    font-family: "Marvel", sans-serif;
+
+}
+
+li:hover{
+    color: #DF1F2D ;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+
+}
+
+#Banner{
+    background-image: url('https://cabanadoleitor.com.br/wp-content/uploads/2021/12/Homem-Aranha-Sem-Volta-para-Casa-1.webp');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    border: .5px solid #2b3784 ;
+}
+
+#trailer-container{
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center ;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 50%;
+
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.descricao{
+    color: #fff;
+    font-size: 19px;
+    font-family: "Marvel", sans-serif;
+    width: 50%;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color:#DF1F2D ;
+    color:#fff ;
+    padding: 8px 10px;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+
+}
+
+.button:hover{
+    background-color: #2b3784;
+    color: blanchedalmond;
+}
+
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Marvel", sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    font-size: 19px;
+}
+
+
+.banner-1{
+    background-image: url('https://br.web.img3.acsta.net/pictures/19/07/01/23/18/1152169.jpg');
+}
+
+.banner-2{
+    background-image: url('https://br.web.img2.acsta.net/c_310_420/pictures/19/12/26/23/19/0993801.jpg');
+}
+
+.banner-3{
+    background-image: url('https://www.cheatsheet.com/wp-content/uploads/2021/11/benedict-cumberbatch.jpg') 
+}
+
+footer{
+    height: 300px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: "Marvel", sans-serif;
+}
+
+.footer-navigation{
+    display: none;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 780px){
+
+    .footer-navigation {
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;
+    }
+
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer{
+        width: 100%;
+    }
+
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .descricao{
+        width: 100%;
+    }
+
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top:150px; 
+
+    }
+}

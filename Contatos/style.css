@@ -1,0 +1,315 @@
+.marvel-regular {
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #df1f2d;
+   
+}
+
+nav{
+    width: 60%;
+    
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Marvel", sans-serif;
+    transition: .5s;
+
+}
+
+li:hover{
+    color: #df1f2d;
+}
+
+#logo{
+    width: 160px;
+    height: auto;
+}
+
+#texto {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borda{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align:center;
+    border-radius: 1000px;
+    background-color: #2b3784;
+
+}
+
+.span{
+    background-color: #2b3784;
+    color: aliceblue;
+    font-size: 25px;
+    font-family:"Marvel", sans-serif;
+    width: 50%;
+    
+
+}
+
+
+#minhadiv{
+    background-color:rgb(19, 19, 19);
+    width: 45%;
+    height: 700px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 500px;
+    border-radius: 150px;
+}
+
+.div-1{
+    background-color:rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#nome{
+    color: #2b3784 ;
+    background-color: aliceblue;
+    width: 190px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Marvel", sans-serif;
+}
+
+.nome{
+    background-color:rgb(19, 19, 19);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Marvel", sans-serif;
+    
+
+}
+
+
+
+#number{
+    background-color: aliceblue;
+    color: #2b3784;
+    width: 190px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Marvel", sans-serif;
+
+}
+
+.number{
+    background-color:rgb(19, 19, 19);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Marvel", sans-serif;
+
+}
+
+#email{
+    background-color: aliceblue;
+    color: #2b3784;
+    width: 190px;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Marvel", sans-serif;
+
+
+}
+
+
+.email{
+    background-color:rgb(19, 19, 19);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Marvel", sans-serif;
+} 
+
+
+
+#mensagem{
+    background-color: aliceblue;
+    color: #2b3784;
+    width: 140%;
+    height: 250px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Marvel", sans-serif;
+    border-radius: 3    0px;
+
+}
+
+.mensagem{
+    background-color:rgb(19, 19, 19);
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Marvel", sans-serif;
+}
+
+button{
+
+    width: 200px;
+    height: 60px;
+    background-color: #2b3784;
+    color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: "Marvel", sans-serif;
+    transition: .8s;
+    font-weight:bold;
+}
+
+button:hover{
+    background-color: #df1f2d;
+    color: black;
+}
+
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+span{
+    color: #fff;
+    font-family: "Marvel", sans-serif;
+    
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:780px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+
+    .span{
+        background-color: #2b3784;
+        color: aliceblue;
+        font-size: 13px;
+        font-family:"Marvel", sans-serif;
+        width: 50%;
+        
+    }
+
+    #minhadiv{
+
+        margin-left: 82px;
+        border-radius: 5%;
+        justify-content: space-around;
+        height: auto;
+        width: 250px;
+    }
+
+    #nome{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .nome{
+        font-size: 20px;
+    }
+
+
+    #number{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .number{
+        font-size: 20px;
+    }
+
+    #email{
+        width: 90px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .email{
+        font-size: 20px;
+    }
+
+    #mensagem{
+        width: 150px;
+        height: 100px;
+        font-size: 10px;
+    }
+
+    .mensagem{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    button{
+        
+        width: 100px;
+        height: 40px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+}
